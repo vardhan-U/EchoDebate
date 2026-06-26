@@ -6,3 +6,10 @@ def debateanalyser(client,data):
     {"role":"user","content":data}]
     result = client.chat.completions.create(model = "phi3:instruct",messages = messages)
     return result.choices[0].message.content
+
+def cardanalysis(client,data):
+    messages = [{"role":"system","content":"You are good analyser based on the data given write the drawbacks and logics that are actually missing it in maximum of 4 points."},
+    {"role":"user","content":data}]
+    result = client.chat.completions.create(model = "phi3:instruct",messages = messages)
+    return result.choices[0].message.content
+
