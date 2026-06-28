@@ -12,7 +12,6 @@ Record yourself making an argument. EchoDebate transcribes it, scores your logic
 - **Logic scoring** — rated across structure, evidence strength, fallacy count, and rebuttal responsiveness, each with a plain-English explanation
 - **Adversarial opponent** — searches for a real counter-fact before rebutting you, never fabricates a source
 - **Cue card check** — upload a photo of your prep notes and see which points you actually covered
-- **Model comparison** — every rebuttal and score runs on both a frontier and open-source model side by side
 
 ---
 
