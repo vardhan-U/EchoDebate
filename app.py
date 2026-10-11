@@ -7,8 +7,8 @@ def debateanalyser(data):
     messages = [{
             "role": "system",
             "content": ("You are an expert in debating. Analyze the given debate from an opponent. "
-                "Provide exactly up to 5 concise points for flaws, up to 4 concise points for "
-                "counter-debates, and a final logic level out of 10. Use this exact text structure:\n"
+                "Provide exactly up to 4 concise points for flaws, up to 4 concise points for "
+                "counter-debates, and a final logic level out of 10 and make sure it brief and not over explained. Use this exact text structure:\n"
                 "**Flaws:**\n[Points here]\n\n"
                 "**Counter Debates:**\n[Points here]\n\n"
                 "**Logic Level:** [Score]/10")},
